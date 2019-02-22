@@ -1,0 +1,12 @@
+config terminal
+enable secret cisco
+service password-encryption
+line vty 0 4
+password cisco
+login
+end
+configure terminal
+int f0/1
+no shutdown
+ip address 192.168.56.127 255.255.255.0
+end
