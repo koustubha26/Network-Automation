@@ -5,7 +5,7 @@ line vty 0 4
 password cisco
 login
 end
-configure terminal
+config terminal
 int f0/1
 no shutdown
 ip address 192.168.56.125 255.255.255.0
