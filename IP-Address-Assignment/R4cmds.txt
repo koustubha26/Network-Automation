@@ -1,0 +1,6 @@
+terminal length 0
+configure terminal
+int s0/1
+no shut
+ip address 192.168.8.116 255.255.255.0
+end
