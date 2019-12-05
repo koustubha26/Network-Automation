@@ -46,4 +46,4 @@ def telnet_gns3(ip):
         
 
 #Call gns3
-telnet_gns3('192.168.1.101')
+telnet_gns3('192.168.56.125')
