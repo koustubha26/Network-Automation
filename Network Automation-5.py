@@ -41,7 +41,7 @@ def telnet_gns3(ip):
 def create_cmds():
 
         
-    ip_address=('192.168.1.101','192.168.1.101','192.168.1.102','192.168.1.103')   
+    ip_address=('192.168.56.125','192.168.56.126','192.168.56.127','192.168.56.128')   
     for router in range(len(ip_address)):
        
 
