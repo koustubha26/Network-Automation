@@ -48,7 +48,7 @@ def telnet_gns3(ip,router):
 #Program starts
 #Call gns3
 #loop n number times where n = the number of routers
-ip = '192.168.1.101'
+ip = '192.168.56.125'
 n=3
 #start loop
 for router in range(1,n):  
