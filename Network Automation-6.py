@@ -62,13 +62,13 @@ def telnet_gns3(ip,router):
 #loop n number times where n = the number of routers
 for router in range(1,5):
     if router == 1: 
-        ip = '192.168.1.101' 
+        ip = '192.168.56.125' 
     elif router == 2: 
-        ip = '192.168.1.102'
+        ip = '192.168.56.126'
     elif router == 3: 
-        ip = '192.168.1.103'
+        ip = '192.168.56.127'
     elif router == 4: 
-        ip = '192.168.1.104'
+        ip = '192.168.56.128'
     telnet_gns3(ip,router) 
     
 
